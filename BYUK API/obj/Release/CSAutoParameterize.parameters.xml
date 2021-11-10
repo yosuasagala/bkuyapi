@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="BYUKDB-Web.config Connection String" description="BYUKDB Connection String used in web.config by the application to access the database." defaultValue="Server=127.0.0.1;Database=BYUK;Uid=dev-1;Pwd=P@ssw0rd1234;SSL Mode=None" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\APLIKASI\\DTPL\\BYUK\ API\\BYUK\ API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BYUKDB']/@connectionString" />
+  </parameter>
+</parameters>
